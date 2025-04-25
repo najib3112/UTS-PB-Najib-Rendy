@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793908997272",
+    "project_id": "rejib-store",
+    "storage_bucket": "rejib-store.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793908997272:android:2aefd083ef7bb0c60674ed",
+        "android_client_info": {
+          "package_name": "com.example.rejibstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjSjMgIav-7Kb6B-eLWolDJoLrRMZ7iWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
