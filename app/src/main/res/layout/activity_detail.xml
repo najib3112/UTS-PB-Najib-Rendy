@@ -164,7 +164,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="$0"
-                        android:textColor="@color/orange"
+                        android:textColor="@color/blue"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_marginHorizontal="16dp"
@@ -172,7 +172,7 @@
                 </LinearLayout>
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:background="@drawable/orange_bg"
+                    android:background="@drawable/blue_bg"
                     style="@android:style/Widget.Button"
                     android:textStyle="bold"
                     android:textColor="@color/white"
