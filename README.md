@@ -4,5 +4,9 @@ NAMA : RENDY RIZQIKA MAULANA (12350111267)
 
 
 
-https://github.com/user-attachments/assets/9baf812d-edf4-444c-a8fd-1006c513f177
+
+
+
+
+https://github.com/user-attachments/assets/d2e14ff0-d499-4af8-852f-7b53f084d3a2
 
