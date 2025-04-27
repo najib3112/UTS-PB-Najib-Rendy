@@ -1,5 +1,6 @@
 package com.example.rejibstore.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -18,6 +19,7 @@ import com.example.rejibstore.Domain.BannerModel;
 import com.example.rejibstore.R;
 import com.example.rejibstore.ViewModel.MainViewModel;
 import com.example.rejibstore.databinding.ActivityMainBinding;
+import com.ismaeldivita.chipnavigation.ChipNavigationBar;
 
 import java.util.ArrayList;
 
@@ -37,7 +39,21 @@ public class MainActivity extends AppCompatActivity {
         initCategory();
         initSlider();
         initPopular();
+        bottomNavigation();
     }
+
+    private void bottomNavigation() {
+        binding.bottomNavigation.setItemSelected(R.id.home, true);
+        binding.bottomNavigation.setOnItemSelectedListener(new ChipNavigationBar.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(int i) {
+
+            }
+        });
+        binding.cartBtn.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, CartActivity.class)));
+
+    }
+
     private void initPopular() {
         binding.progressBarPopular.setVisibility(View.VISIBLE);
         viewModel.loadPopular().observeForever(itemsModels -> {

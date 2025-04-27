@@ -56,11 +56,11 @@
                 </LinearLayout>
 
                 <ImageView
-                    android:id="@+id/imageView19"
+                    android:id="@+id/cartBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/cart_icon"
-                    android:paddingRight="5dp"/>
+                    android:paddingRight="5dp"
+                    app:srcCompat="@drawable/cart_icon" />
 
                 <ImageView
                     android:id="@+id/imageView17"
